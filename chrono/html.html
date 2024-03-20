@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Stopwatch</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="display" class="display">00:00:00</div>
+  <div id="buttons" class="buttons">
+    <button id="startStopButton" class="button start" onclick="startStop()">Start</button>
+    <button id="resetButton" class="button reset" onclick="reset()">Reset</button>
+    <button id="lapButton" class="button lap" onclick="lap()">Lap</button>
+  </div>
+  <ul id="lapTimes" class="lap-times"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
